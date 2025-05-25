@@ -1,0 +1,10 @@
+services:
+  - name: openmp-server
+    type: web
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    envVars: []
+    ports:
+      - port: 7777
+        protocol: udp
